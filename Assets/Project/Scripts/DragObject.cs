@@ -17,12 +17,16 @@ public class DragObject : MonoBehaviour
     private List<Vector3> _objectTargetPosition;
 
     private bool _isDragging;
-    public float maxSpeed = 10f;
 
+    private CursorManager _cursorManager;
+
+    public float maxSpeed = 10f;
+    private bool _carrying;
 
     private void Awake()
     {
         _rbs = new List<Rigidbody>();
+        _cursorManager = GameObject.FindObjectOfType<CursorManager>();
     }
     private void OnMouseDown()
     {
@@ -35,6 +39,8 @@ public class DragObject : MonoBehaviour
                 _rbs.Add(item.GetComponent<Rigidbody>());
             }
         }
+
+        _carrying = true;
 
         // Prevents Object from falling
         foreach (Rigidbody rigidbody in _rbs)
@@ -75,6 +81,19 @@ public class DragObject : MonoBehaviour
         }
 
         _force = Vector3.zero;
+        _carrying = false;
+        _cursorManager.SwitchCursor(0);
+
+    }
+
+    private void OnMouseEnter()
+    {
+        _cursorManager.SwitchCursor(1);
+    }
+
+    private void OnMouseExit()
+    {
+        _cursorManager.SwitchCursor(0);
     }
 
     private void FixedUpdate()
@@ -89,5 +108,13 @@ public class DragObject : MonoBehaviour
 
         }
 
+    }
+
+    private void Update()
+    {
+        if(_carrying)
+        {
+            _cursorManager.SwitchCursor(2);
+        }
     }
 }
