@@ -20,6 +20,7 @@ public class DragObject : MonoBehaviour
 
     private CursorManager _cursorManager;
 
+    public float forceAmplifier = 10f;
     public float maxSpeed = 10f;
     private bool _carrying;
 
@@ -69,7 +70,7 @@ public class DragObject : MonoBehaviour
     private void OnMouseDrag()
     {       
         _mouseTargetPosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, _gameObjectScreenPosition.z);
-        _force = _mouseTargetPosition - _mouseInitialPosition;
+        _force = (_mouseTargetPosition - _mouseInitialPosition) * forceAmplifier;
         _mouseInitialPosition = _mouseTargetPosition;
         _isDragging = true;
     }
