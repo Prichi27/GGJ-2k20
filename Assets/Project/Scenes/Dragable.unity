@@ -301,6 +301,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmplifier: 10
   maxSpeed: 10
 --- !u!54 &74272630
 Rigidbody:
@@ -367,7 +368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
+  forceAmplifier: 10
+  maxSpeed: 100
 --- !u!65 &167384377
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -489,6 +491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmplifier: 10
   maxSpeed: 10
 --- !u!65 &207083227
 BoxCollider:
@@ -595,6 +598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmplifier: 10
   maxSpeed: 10
 --- !u!54 &232031048
 Rigidbody:
@@ -717,6 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmplifier: 10
   maxSpeed: 10
 --- !u!54 &278742610
 Rigidbody:
@@ -1003,6 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmplifier: 10
   maxSpeed: 10
 --- !u!54 &386456858
 Rigidbody:
@@ -1194,6 +1200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmplifier: 10
   maxSpeed: 10
 --- !u!54 &1090857458
 Rigidbody:
@@ -1274,6 +1281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmplifier: 10
   maxSpeed: 10
 --- !u!65 &1271035765
 BoxCollider:
@@ -1396,6 +1404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64953c4b2b58944cb5114257c9e3933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmplifier: 10
   maxSpeed: 10
 --- !u!65 &1439897008
 BoxCollider:

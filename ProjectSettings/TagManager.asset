@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Vase
   - Umbrella
+  - Bed
+  - Bulb
+  - Paint
+  - Wire
   layers:
   - Default
   - TransparentFX
