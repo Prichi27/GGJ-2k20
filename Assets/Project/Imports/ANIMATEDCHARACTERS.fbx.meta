@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: b7e66f6a95df8524da34e5f8bb988520
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cat.001
+    100004: CatRig
+    100006: foot.L
+    100008: foot.L 1
+    100010: foot.L 2
+    100012: foot.L 3
+    100014: foot.L 4
+    100016: foot.R
+    100018: foot.R 1
+    100020: foot.R 2
+    100022: foot.R 3
+    100024: foot.R 4
+    100026: forearm.L
+    100028: forearm.L 1
+    100030: forearm.L 2
+    100032: forearm.L 3
+    100034: forearm.R
+    100036: forearm.R 1
+    100038: forearm.R 2
+    100040: forearm.R 3
+    100042: front_foot.L
+    100044: front_foot.R
+    100046: front_shin.L
+    100048: front_shin.R
+    100050: front_thigh.L
+    100052: front_thigh.R
+    100054: front_toe.R
+    100056: Grandma.001
+    100058: GrandmaRig
+    100060: hand.L
+    100062: hand.L 1
+    100064: hand.L 2
+    100066: hand.L 3
+    100068: hand.R
+    100070: hand.R 1
+    100072: hand.R 2
+    100074: hand.R 3
+    100076: head
+    100078: head 1
+    100080: head 2
+    100082: head 3
+    100084: Jacket.L
+    100086: jacket.L
+    100088: jacket.L.001
+    100090: Jacket.R
+    100092: jacket.R
+    100094: jacket.R.001
+    100096: neck
+    100098: neck 1
+    100100: neck 2
+    100102: neck 3
+    100104: Neighbour.001
+    100106: NeighbourRig
+    100108: shin.L
+    100110: shin.L 1
+    100112: shin.L 2
+    100114: shin.L 3
+    100116: shin.L 4
+    100118: shin.R
+    100120: shin.R 1
+    100122: shin.R 2
+    100124: shin.R 3
+    100126: shin.R 4
+    100128: shoulder.L
+    100130: shoulder.L 1
+    100132: shoulder.L 2
+    100134: shoulder.L 3
+    100136: shoulder.L 4
+    100138: shoulder.R
+    100140: shoulder.R 1
+    100142: shoulder.R 2
+    100144: shoulder.R 3
+    100146: shoulder.R 4
+    100148: spine
+    100150: spine 1
+    100152: spine 2
+    100154: spine 3
+    100156: spine 4
+    100158: spine.001
+    100160: spine.001 1
+    100162: spine.001 2
+    100164: spine.001 3
+    100166: spine.001 4
+    100168: spine.002
+    100170: spine.002 1
+    100172: spine.002 2
+    100174: spine.002 3
+    100176: spine.002 4
+    100178: spine.003
+    100180: spine.003 1
+    100182: spine.003 2
+    100184: spine.003 3
+    100186: spine.003 4
+    100188: spine.004
+    100190: spine.004 1
+    100192: spine.004 2
+    100194: spine.004 3
+    100196: spine.004 4
+    100198: spine.005
+    100200: spine.006
+    100202: spine.007
+    100204: spine.008
+    100206: spine.009
+    100208: spine.010
+    100210: spine.011
+    100212: spine.012
+    100214: TeenBoi.001
+    100216: TeenBoiRig
+    100218: TeenGal.001
+    100220: TeenGalRig
+    100222: thigh.L
+    100224: thigh.L 1
+    100226: thigh.L 2
+    100228: thigh.L 3
+    100230: thigh.L 4
+    100232: thigh.R
+    100234: thigh.R 1
+    100236: thigh.R 2
+    100238: thigh.R 3
+    100240: thigh.R 4
+    100242: toe.L
+    100244: toe.L 1
+    100246: toe.L 2
+    100248: toe.L 3
+    100250: toe.L 4
+    100252: toe.R
+    100254: toe.R 1
+    100256: toe.R 2
+    100258: toe.R 3
+    100260: toe.R 4
+    100262: upper_arm.L
+    100264: upper_arm.L 1
+    100266: upper_arm.L 2
+    100268: upper_arm.L 3
+    100270: upper_arm.R
+    100272: upper_arm.R 1
+    100274: upper_arm.R 2
+    100276: upper_arm.R 3
+    400000: //RootNode
+    400002: Cat.001
+    400004: CatRig
+    400006: foot.L
+    400008: foot.L 1
+    400010: foot.L 2
+    400012: foot.L 3
+    400014: foot.L 4
+    400016: foot.R
+    400018: foot.R 1
+    400020: foot.R 2
+    400022: foot.R 3
+    400024: foot.R 4
+    400026: forearm.L
+    400028: forearm.L 1
+    400030: forearm.L 2
+    400032: forearm.L 3
+    400034: forearm.R
+    400036: forearm.R 1
+    400038: forearm.R 2
+    400040: forearm.R 3
+    400042: front_foot.L
+    400044: front_foot.R
+    400046: front_shin.L
+    400048: front_shin.R
+    400050: front_thigh.L
+    400052: front_thigh.R
+    400054: front_toe.R
+    400056: Grandma.001
+    400058: GrandmaRig
+    400060: hand.L
+    400062: hand.L 1
+    400064: hand.L 2
+    400066: hand.L 3
+    400068: hand.R
+    400070: hand.R 1
+    400072: hand.R 2
+    400074: hand.R 3
+    400076: head
+    400078: head 1
+    400080: head 2
+    400082: head 3
+    400084: Jacket.L
+    400086: jacket.L
+    400088: jacket.L.001
+    400090: Jacket.R
+    400092: jacket.R
+    400094: jacket.R.001
+    400096: neck
+    400098: neck 1
+    400100: neck 2
+    400102: neck 3
+    400104: Neighbour.001
+    400106: NeighbourRig
+    400108: shin.L
+    400110: shin.L 1
+    400112: shin.L 2
+    400114: shin.L 3
+    400116: shin.L 4
+    400118: shin.R
+    400120: shin.R 1
+    400122: shin.R 2
+    400124: shin.R 3
+    400126: shin.R 4
+    400128: shoulder.L
+    400130: shoulder.L 1
+    400132: shoulder.L 2
+    400134: shoulder.L 3
+    400136: shoulder.L 4
+    400138: shoulder.R
+    400140: shoulder.R 1
+    400142: shoulder.R 2
+    400144: shoulder.R 3
+    400146: shoulder.R 4
+    400148: spine
+    400150: spine 1
+    400152: spine 2
+    400154: spine 3
+    400156: spine 4
+    400158: spine.001
+    400160: spine.001 1
+    400162: spine.001 2
+    400164: spine.001 3
+    400166: spine.001 4
+    400168: spine.002
+    400170: spine.002 1
+    400172: spine.002 2
+    400174: spine.002 3
+    400176: spine.002 4
+    400178: spine.003
+    400180: spine.003 1
+    400182: spine.003 2
+    400184: spine.003 3
+    400186: spine.003 4
+    400188: spine.004
+    400190: spine.004 1
+    400192: spine.004 2
+    400194: spine.004 3
+    400196: spine.004 4
+    400198: spine.005
+    400200: spine.006
+    400202: spine.007
+    400204: spine.008
+    400206: spine.009
+    400208: spine.010
+    400210: spine.011
+    400212: spine.012
+    400214: TeenBoi.001
+    400216: TeenBoiRig
+    400218: TeenGal.001
+    400220: TeenGalRig
+    400222: thigh.L
+    400224: thigh.L 1
+    400226: thigh.L 2
+    400228: thigh.L 3
+    400230: thigh.L 4
+    400232: thigh.R
+    400234: thigh.R 1
+    400236: thigh.R 2
+    400238: thigh.R 3
+    400240: thigh.R 4
+    400242: toe.L
+    400244: toe.L 1
+    400246: toe.L 2
+    400248: toe.L 3
+    400250: toe.L 4
+    400252: toe.R
+    400254: toe.R 1
+    400256: toe.R 2
+    400258: toe.R 3
+    400260: toe.R 4
+    400262: upper_arm.L
+    400264: upper_arm.L 1
+    400266: upper_arm.L 2
+    400268: upper_arm.L 3
+    400270: upper_arm.R
+    400272: upper_arm.R 1
+    400274: upper_arm.R 2
+    400276: upper_arm.R 3
+    2100000: Cat.001
+    2100002: Gran.001
+    2100004: Neigh.001
+    2100006: TeenB.001
+    2100008: TeenG.001
+    4300000: Cat.001
+    4300002: Grandma.001
+    4300004: Neighbour.001
+    4300006: TeenBoi.001
+    4300008: TeenGal.001
+    7400000: NeighbourRig|DeadBoi
+    7400002: NeighbourRig|DeadGal
+    7400004: NeighbourRig|GrandmaIdle
+    7400006: NeighbourRig|MakingOutBoi
+    7400008: NeighbourRig|MakingOutGal
+    7400010: NeighbourRig|NeighbourIdle
+    7400012: NeighbourRig|NeighbourINTRO
+    7400014: NeighbourRig|NeighbourPower
+    7400016: NeighbourRig|StunnedBoi
+    7400018: NeighbourRig|StunnedGal
+    7400020: GrandmaRig|DeadBoi
+    7400022: GrandmaRig|DeadGal
+    7400024: GrandmaRig|GrandmaIdle
+    7400026: GrandmaRig|MakingOutBoi
+    7400028: GrandmaRig|MakingOutGal
+    7400030: GrandmaRig|StunnedBoi
+    7400032: GrandmaRig|StunnedGal
+    7400034: TeenBoiRig|DeadBoi
+    7400036: TeenBoiRig|DeadGal
+    7400038: TeenBoiRig|GrandmaIdle
+    7400040: TeenBoiRig|MakingOutBoi
+    7400042: TeenBoiRig|MakingOutGal
+    7400044: TeenBoiRig|StunnedBoi
+    7400046: TeenBoiRig|StunnedGal
+    7400048: TeenGalRig|DeadBoi
+    7400050: TeenGalRig|DeadGal
+    7400052: TeenGalRig|GrandmaIdle
+    7400054: TeenGalRig|MakingOutBoi
+    7400056: TeenGalRig|MakingOutGal
+    7400058: TeenGalRig|StunnedBoi
+    7400060: TeenGalRig|StunnedGal
+    7400062: CatRig|CatChangePosition
+    7400064: CatRig|CatIdle
+    7400066: CatRig|CatRigAction
+    9500000: //RootNode
+    13700000: Cat.001
+    13700002: Grandma.001
+    13700004: Neighbour.001
+    13700006: TeenBoi.001
+    13700008: TeenGal.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
