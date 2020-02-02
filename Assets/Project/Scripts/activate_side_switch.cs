@@ -10,6 +10,7 @@ public class activate_side_switch : MonoBehaviour
     public GameObject holo_room_box;
     private Animator switch_animator;
     public GameObject plane_obj;
+    public GameObject title;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +49,8 @@ public class activate_side_switch : MonoBehaviour
 
             holo_room_box.SetActive(true);
 
-            
+            title.SetActive(false);
+
 
             //start routine
             //fade sprite out
