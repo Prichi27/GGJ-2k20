@@ -41,6 +41,8 @@ public class DragObject : MonoBehaviour
         }
 
         _carrying = true;
+        _cursorManager.IsDragging = true;
+        _cursorManager.DragGameObject = gameObject;
 
         // Prevents Object from falling
         foreach (Rigidbody rigidbody in _rbs)
@@ -82,6 +84,7 @@ public class DragObject : MonoBehaviour
 
         _force = Vector3.zero;
         _carrying = false;
+        _cursorManager.IsDragging = false;
         _cursorManager.SwitchCursor(0);
 
     }
@@ -98,7 +101,7 @@ public class DragObject : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_force != Vector3.zero)
+        if (_force != Vector3.zero )
         {
             foreach (Rigidbody rigidbody in _rbs)
             {
@@ -106,8 +109,11 @@ public class DragObject : MonoBehaviour
                 rigidbody.velocity = Vector3.ClampMagnitude(rigidbody.velocity, maxSpeed);
             }
 
+
         }
 
+        //if (_cursorManager.IsDragging)
+        //_cursorManager.SetTextureLocation(gameObject.transform.position);
     }
 
     private void Update()
@@ -115,6 +121,9 @@ public class DragObject : MonoBehaviour
         if(_carrying)
         {
             _cursorManager.SwitchCursor(2);
+            _cursorManager.SetTextureLocation(gameObject.transform.position);
+
+
         }
     }
 }

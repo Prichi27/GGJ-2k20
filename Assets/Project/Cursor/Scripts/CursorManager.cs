@@ -10,6 +10,9 @@ public class CursorManager : MonoBehaviour
 
     public Texture2D[] cursorTextures;
 
+    public bool IsDragging { get; set; }
+    public GameObject DragGameObject { get; set; }
+
     private void Start()
     {
         Cursor.visible = false;
@@ -18,11 +21,24 @@ public class CursorManager : MonoBehaviour
 
     private void Update()
     {
+        if (!IsDragging)
+            SetTextureLocation(Input.mousePosition);
+
+        //else SetTextureLocation(DragGameObject.transform.position);
+    }
+
+    public void SwitchCursor(int index)
+    {
+        mouseCursor.texture = cursorTextures[index];
+    }
+
+    public void SetTextureLocation(Vector3 position)
+    {
         Vector2 movePos;
 
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
             parentCanvas.transform as RectTransform,
-            Input.mousePosition, parentCanvas.worldCamera,
+            position, parentCanvas.worldCamera,
             out movePos);
 
         Vector3 mousePos = parentCanvas.transform.TransformPoint(movePos);
@@ -32,10 +48,5 @@ public class CursorManager : MonoBehaviour
 
         //Move the Object/Panel
         transform.position = mousePos;
-    }
-
-    public void SwitchCursor(int index)
-    {
-        mouseCursor.texture = cursorTextures[index];
     }
 }
