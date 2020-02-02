@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 33d601e2406a75342b667b8c68717624
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cat.001
+    100004: CatRig
+    100006: foot.L
+    100008: foot.R
+    100010: front_foot.L
+    100012: front_foot.L_end
+    100014: front_foot.R
+    100016: front_shin.L
+    100018: front_shin.R
+    100020: front_thigh.L
+    100022: front_thigh.R
+    100024: front_toe.R
+    100026: front_toe.R_end
+    100028: shin.L
+    100030: shin.R
+    100032: shoulder.L
+    100034: shoulder.R
+    100036: spine
+    100038: spine.001
+    100040: spine.002
+    100042: spine.003
+    100044: spine.004
+    100046: spine.005
+    100048: spine.006
+    100050: spine.007
+    100052: spine.008
+    100054: spine.009
+    100056: spine.010
+    100058: spine.011
+    100060: spine.011_end
+    100062: spine.012
+    100064: spine.012_end
+    100066: spine_end
+    100068: thigh.L
+    100070: thigh.R
+    100072: toe.L
+    100074: toe.L_end
+    100076: toe.R
+    100078: toe.R_end
+    400000: //RootNode
+    400002: Cat.001
+    400004: CatRig
+    400006: foot.L
+    400008: foot.R
+    400010: front_foot.L
+    400012: front_foot.L_end
+    400014: front_foot.R
+    400016: front_shin.L
+    400018: front_shin.R
+    400020: front_thigh.L
+    400022: front_thigh.R
+    400024: front_toe.R
+    400026: front_toe.R_end
+    400028: shin.L
+    400030: shin.R
+    400032: shoulder.L
+    400034: shoulder.R
+    400036: spine
+    400038: spine.001
+    400040: spine.002
+    400042: spine.003
+    400044: spine.004
+    400046: spine.005
+    400048: spine.006
+    400050: spine.007
+    400052: spine.008
+    400054: spine.009
+    400056: spine.010
+    400058: spine.011
+    400060: spine.011_end
+    400062: spine.012
+    400064: spine.012_end
+    400066: spine_end
+    400068: thigh.L
+    400070: thigh.R
+    400072: toe.L
+    400074: toe.L_end
+    400076: toe.R
+    400078: toe.R_end
+    2100000: Cat.001
+    4300000: Cat.001
+    7400000: CatRig|CatChangePosition
+    7400002: CatRig|CatIdle
+    7400004: CatRig|CatScare
+    7400006: CatRig|pSphere4Action
+    9500000: //RootNode
+    13700000: Cat.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CatRig|CatChangePosition
+      takeName: CatRig|CatChangePosition
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CatRig|CatIdle
+      takeName: CatRig|CatIdle
+      firstFrame: 0
+      lastFrame: 112
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CatRig|CatScare
+      takeName: CatRig|CatScare
+      firstFrame: 0
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CatRig|pSphere4Action
+      takeName: CatRig|pSphere4Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
